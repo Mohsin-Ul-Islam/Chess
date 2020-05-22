@@ -1,0 +1,3 @@
+/home/aqua/projects/Chess/build/CMakeFiles/rebuild_cache.dir
+/home/aqua/projects/Chess/build/CMakeFiles/edit_cache.dir
+/home/aqua/projects/Chess/build/CMakeFiles/game.dir
