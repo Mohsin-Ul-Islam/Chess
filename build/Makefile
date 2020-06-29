@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aqua/projects/Chess
+CMAKE_SOURCE_DIR = /home/aqua/projects/chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aqua/projects/Chess/build
+CMAKE_BINARY_DIR = /home/aqua/projects/chess/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aqua/projects/Chess/build/CMakeFiles /home/aqua/projects/Chess/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aqua/projects/chess/build/CMakeFiles /home/aqua/projects/chess/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aqua/projects/Chess/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aqua/projects/chess/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,141 @@ game/fast:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
+src/Board.o: src/Board.cpp.o
+
+.PHONY : src/Board.o
+
+# target to build an object file
+src/Board.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Board.cpp.o
+.PHONY : src/Board.cpp.o
+
+src/Board.i: src/Board.cpp.i
+
+.PHONY : src/Board.i
+
+# target to preprocess a source file
+src/Board.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Board.cpp.i
+.PHONY : src/Board.cpp.i
+
+src/Board.s: src/Board.cpp.s
+
+.PHONY : src/Board.s
+
+# target to generate assembly for a file
+src/Board.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Board.cpp.s
+.PHONY : src/Board.cpp.s
+
+src/King.o: src/King.cpp.o
+
+.PHONY : src/King.o
+
+# target to build an object file
+src/King.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/King.cpp.o
+.PHONY : src/King.cpp.o
+
+src/King.i: src/King.cpp.i
+
+.PHONY : src/King.i
+
+# target to preprocess a source file
+src/King.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/King.cpp.i
+.PHONY : src/King.cpp.i
+
+src/King.s: src/King.cpp.s
+
+.PHONY : src/King.s
+
+# target to generate assembly for a file
+src/King.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/King.cpp.s
+.PHONY : src/King.cpp.s
+
+src/Pawn.o: src/Pawn.cpp.o
+
+.PHONY : src/Pawn.o
+
+# target to build an object file
+src/Pawn.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Pawn.cpp.o
+.PHONY : src/Pawn.cpp.o
+
+src/Pawn.i: src/Pawn.cpp.i
+
+.PHONY : src/Pawn.i
+
+# target to preprocess a source file
+src/Pawn.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Pawn.cpp.i
+.PHONY : src/Pawn.cpp.i
+
+src/Pawn.s: src/Pawn.cpp.s
+
+.PHONY : src/Pawn.s
+
+# target to generate assembly for a file
+src/Pawn.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Pawn.cpp.s
+.PHONY : src/Pawn.cpp.s
+
+src/Piece.o: src/Piece.cpp.o
+
+.PHONY : src/Piece.o
+
+# target to build an object file
+src/Piece.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Piece.cpp.o
+.PHONY : src/Piece.cpp.o
+
+src/Piece.i: src/Piece.cpp.i
+
+.PHONY : src/Piece.i
+
+# target to preprocess a source file
+src/Piece.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Piece.cpp.i
+.PHONY : src/Piece.cpp.i
+
+src/Piece.s: src/Piece.cpp.s
+
+.PHONY : src/Piece.s
+
+# target to generate assembly for a file
+src/Piece.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Piece.cpp.s
+.PHONY : src/Piece.cpp.s
+
+src/PiecePosition.o: src/PiecePosition.cpp.o
+
+.PHONY : src/PiecePosition.o
+
+# target to build an object file
+src/PiecePosition.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/PiecePosition.cpp.o
+.PHONY : src/PiecePosition.cpp.o
+
+src/PiecePosition.i: src/PiecePosition.cpp.i
+
+.PHONY : src/PiecePosition.i
+
+# target to preprocess a source file
+src/PiecePosition.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/PiecePosition.cpp.i
+.PHONY : src/PiecePosition.cpp.i
+
+src/PiecePosition.s: src/PiecePosition.cpp.s
+
+.PHONY : src/PiecePosition.s
+
+# target to generate assembly for a file
+src/PiecePosition.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/PiecePosition.cpp.s
+.PHONY : src/PiecePosition.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... game"
+	@echo "... src/Board.o"
+	@echo "... src/Board.i"
+	@echo "... src/Board.s"
+	@echo "... src/King.o"
+	@echo "... src/King.i"
+	@echo "... src/King.s"
+	@echo "... src/Pawn.o"
+	@echo "... src/Pawn.i"
+	@echo "... src/Pawn.s"
+	@echo "... src/Piece.o"
+	@echo "... src/Piece.i"
+	@echo "... src/Piece.s"
+	@echo "... src/PiecePosition.o"
+	@echo "... src/PiecePosition.i"
+	@echo "... src/PiecePosition.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

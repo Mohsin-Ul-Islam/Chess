@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/aqua/projects/Chess/./src -I/home/aqua/projects/Chess/./include 
+CXX_INCLUDES = -I/home/aqua/projects/chess/./src -I/home/aqua/projects/chess/./include 
 

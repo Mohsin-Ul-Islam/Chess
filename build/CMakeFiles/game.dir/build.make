@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aqua/projects/Chess
+CMAKE_SOURCE_DIR = /home/aqua/projects/chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aqua/projects/Chess/build
+CMAKE_BINARY_DIR = /home/aqua/projects/chess/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -59,32 +59,107 @@ include CMakeFiles/game.dir/flags.make
 
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aqua/projects/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/main.cpp.o -c /home/aqua/projects/Chess/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aqua/projects/chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/main.cpp.o -c /home/aqua/projects/chess/src/main.cpp
 
 CMakeFiles/game.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aqua/projects/Chess/src/main.cpp > CMakeFiles/game.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aqua/projects/chess/src/main.cpp > CMakeFiles/game.dir/src/main.cpp.i
 
 CMakeFiles/game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aqua/projects/Chess/src/main.cpp -o CMakeFiles/game.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aqua/projects/chess/src/main.cpp -o CMakeFiles/game.dir/src/main.cpp.s
+
+CMakeFiles/game.dir/src/PiecePosition.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/PiecePosition.cpp.o: ../src/PiecePosition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aqua/projects/chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/PiecePosition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/PiecePosition.cpp.o -c /home/aqua/projects/chess/src/PiecePosition.cpp
+
+CMakeFiles/game.dir/src/PiecePosition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/PiecePosition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aqua/projects/chess/src/PiecePosition.cpp > CMakeFiles/game.dir/src/PiecePosition.cpp.i
+
+CMakeFiles/game.dir/src/PiecePosition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/PiecePosition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aqua/projects/chess/src/PiecePosition.cpp -o CMakeFiles/game.dir/src/PiecePosition.cpp.s
+
+CMakeFiles/game.dir/src/Piece.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Piece.cpp.o: ../src/Piece.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aqua/projects/chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/Piece.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Piece.cpp.o -c /home/aqua/projects/chess/src/Piece.cpp
+
+CMakeFiles/game.dir/src/Piece.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Piece.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aqua/projects/chess/src/Piece.cpp > CMakeFiles/game.dir/src/Piece.cpp.i
+
+CMakeFiles/game.dir/src/Piece.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Piece.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aqua/projects/chess/src/Piece.cpp -o CMakeFiles/game.dir/src/Piece.cpp.s
+
+CMakeFiles/game.dir/src/King.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/King.cpp.o: ../src/King.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aqua/projects/chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/King.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/King.cpp.o -c /home/aqua/projects/chess/src/King.cpp
+
+CMakeFiles/game.dir/src/King.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/King.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aqua/projects/chess/src/King.cpp > CMakeFiles/game.dir/src/King.cpp.i
+
+CMakeFiles/game.dir/src/King.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/King.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aqua/projects/chess/src/King.cpp -o CMakeFiles/game.dir/src/King.cpp.s
+
+CMakeFiles/game.dir/src/Pawn.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Pawn.cpp.o: ../src/Pawn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aqua/projects/chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/Pawn.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Pawn.cpp.o -c /home/aqua/projects/chess/src/Pawn.cpp
+
+CMakeFiles/game.dir/src/Pawn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Pawn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aqua/projects/chess/src/Pawn.cpp > CMakeFiles/game.dir/src/Pawn.cpp.i
+
+CMakeFiles/game.dir/src/Pawn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Pawn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aqua/projects/chess/src/Pawn.cpp -o CMakeFiles/game.dir/src/Pawn.cpp.s
+
+CMakeFiles/game.dir/src/Board.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Board.cpp.o: ../src/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aqua/projects/chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/Board.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Board.cpp.o -c /home/aqua/projects/chess/src/Board.cpp
+
+CMakeFiles/game.dir/src/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aqua/projects/chess/src/Board.cpp > CMakeFiles/game.dir/src/Board.cpp.i
+
+CMakeFiles/game.dir/src/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aqua/projects/chess/src/Board.cpp -o CMakeFiles/game.dir/src/Board.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
-"CMakeFiles/game.dir/src/main.cpp.o"
+"CMakeFiles/game.dir/src/main.cpp.o" \
+"CMakeFiles/game.dir/src/PiecePosition.cpp.o" \
+"CMakeFiles/game.dir/src/Piece.cpp.o" \
+"CMakeFiles/game.dir/src/King.cpp.o" \
+"CMakeFiles/game.dir/src/Pawn.cpp.o" \
+"CMakeFiles/game.dir/src/Board.cpp.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
 game: CMakeFiles/game.dir/src/main.cpp.o
+game: CMakeFiles/game.dir/src/PiecePosition.cpp.o
+game: CMakeFiles/game.dir/src/Piece.cpp.o
+game: CMakeFiles/game.dir/src/King.cpp.o
+game: CMakeFiles/game.dir/src/Pawn.cpp.o
+game: CMakeFiles/game.dir/src/Board.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aqua/projects/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aqua/projects/chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -97,6 +172,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	cd /home/aqua/projects/Chess/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aqua/projects/Chess /home/aqua/projects/Chess /home/aqua/projects/Chess/build /home/aqua/projects/Chess/build /home/aqua/projects/Chess/build/CMakeFiles/game.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aqua/projects/chess/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aqua/projects/chess /home/aqua/projects/chess /home/aqua/projects/chess/build /home/aqua/projects/chess/build /home/aqua/projects/chess/build/CMakeFiles/game.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game.dir/depend
 
